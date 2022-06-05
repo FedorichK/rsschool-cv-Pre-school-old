@@ -5,4 +5,4 @@ JS in process.
 In process.
 Junior Dev.
 Automation of Technological Processes and Production.
-Upper Intermediate. I have practice during my internship in Germany (Young Leaders Program)
+Upper Intermediate. I have practice during my internship in Germany (Young Leaders Program).
