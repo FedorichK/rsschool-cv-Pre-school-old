@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <!--Info for browser-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Kolotov Fedor</title>         <!--Page Title-->
+    <link rel="icon" href="Fed.ico">        <!--Adding icon-->
+    <link rel="stylesheet" href="style.css"><!--Connecting Styles-->
+    </head>
+    
+<body class="body"> 
+
+    <header> <!--Site header-->
+        <nav class="nav">
+            <ul class="nav-ul">          
+              <li><a href="#contacts" class="nav-link">Contacts</a></li> <!--#-link to page item-->
+              <li><a href="#summary" class="nav-link">Summary</a></li>
+              <li><a href="#skills" class="nav-link">Skills</a></li>          
+              <li><a href="#code" class="nav-link">Code</a></li>
+              <li><a href="#projects" class="nav-link">Projects</a></li>
+              <li><a href="#education" class="nav-link">Education</a></li>
+              <li><a href="#languages" class="nav-link">Languages</a></li>
+            </ul>
+          </nav>
+    </header> 
+    
+    <main class="main">   <!--Unique content-->
+        <div class="container main-container">
+            <section class="section section-profile" id="profile">
+                <img class="my-photo" src="Photo-Kolotov.jpg" alt="Photo Kolotov"> 
+                <div class="section-profile-title">
+                  <h1 class="main-title">Fedor Kolotov</h1>
+                  <h3 class="section-subtitle">Junior Front-End Developer</h3>
+                </div>        
+              </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                    <ul class="contacts-ul">
+                        <li>E-mail:<a href="mailto:fknov2014@gmail.com" title="email" class="contact-link">fknov2014@gmail.com</a></li>
+                        <li>Github:<a href="https://github.com/FedorichK" title="github" class="contact-link">FedorichK</a></li>
+                        <li>Discord:<a href="https://discord.com/channels/516715744646660106/846687560944189460" title="Discord" class="contact-link">FedorichK#9867</a></li>
+                    </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                    <p>I'm learning JavaScript.<br>I have a main job, programming is my hobby.<br>I'm always looking to gain new knowledge.</p>    
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                    <ul class="contacts-ul">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Git, github</li>
+                    </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                    <p>
+                        <code>const normalizeUrl = (urlAdress) => { <br>
+                            let rightAdress;<br>
+                            if (urlAdress.startsWith('https://')) {<br>
+                              rightAdress = urlAdress;<br>
+                            } else {<br>
+                              rightAdress = 'https://' + urlAdress;<br>
+                            }<br>
+                            return rightAdress;<br>
+                        }</code>
+                    </p>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                    <ul class="contacts-ul">
+                        <li>HTML for begginers</li>
+                        <li>CSS for begginers</li>
+                        <li>JavaScript for begginers</li>
+                        <li>RS School JavaScript/Front-end Pre-School 2022Q2</li>
+                    </ul>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                    <p>https://github.com/FedorichK/rsschool-cv/blob/gh-pages/index.html</p>
+                </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                    <p>Automation in technological process</p>
+                </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                    <p>English, Upper-Intermediate</p>
+                    <p>Russian, native</p>
+            </section>
+        </div>
+    </main>
+    
+    <footer class="footer">
+        <div class="footer-container">
+          <div>2022 <a href="https://https://github.com/FedorichK" class="github nav-link">FedorichK</a></div>
+          <a href="https://rs.school/js/" class="rss"></a>
+        </div>
+    </footer>
+         
+</body>
+</html>
