@@ -20,9 +20,9 @@ Specialist with good communication skill. I'm always looking to gain new knowled
 ## Code Example:
 ```
 var countBits = function(n) {
-  let nBit = parseInt(n).toString(2); //conver decimal to binary
-   let arr = nBit.split(""); // binary converted to string array
-   let arrNumbers = arr.map(parseFloat); //convert strings in arr to numbers in arrNumbers
+  let nBit = parseInt(n).toString(2);
+   let arr = nBit.split(""); 
+   let arrNumbers = arr.map(parseFloat);
    let onesCount = 0;
     for (let one of arrNumbers) {
     onesCount += one;
