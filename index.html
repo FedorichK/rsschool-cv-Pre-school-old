@@ -58,15 +58,17 @@
             <section class="section" id="code">
                 <h2 class="section-title">Code</h2>
                     <p>
-                        <code>const normalizeUrl = (urlAdress) => { <br>
-                            let rightAdress;<br>
-                            if (urlAdress.startsWith('https://')) {<br>
-                              rightAdress = urlAdress;<br>
-                            } else {<br>
-                              rightAdress = 'https://' + urlAdress;<br>
-                            }<br>
-                            return rightAdress;<br>
-                        }</code>
+                        <code>var countBits = function(n) {<br>
+                            let nBit = parseInt(n).toString(2);<br>
+                             let arr = nBit.split("");<br>
+                             let arrNumbers = arr.map(parseFloat);<br>
+                             let onesCount = 0;<br>
+                              for (let one of arrNumbers) {<br>
+                              onesCount += one;<br>
+                              }<br>
+                             return onesCount;<br>
+                          };<br>
+                        </code>
                     </p>
             </section>
             <section class="section" id="courses">
@@ -80,7 +82,7 @@
             </section>
             <section class="section" id="projects">
                 <h2 class="section-title">Projects</h2>
-                    <p>https://github.com/FedorichK/rsschool-cv/blob/gh-pages/index.html</p>
+                    <a href="https://rolling-scopes-school.github.io/fedorichk-JSFEPRESCHOOL2022Q2/travel/">Travel project</a>
                 </section>
             <section class="section" id="education">
                 <h2 class="section-title">Education</h2>
